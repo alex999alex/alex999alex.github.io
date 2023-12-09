@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+.bg-dark{
+    background-color: #010408;
+    /*background-color: aqua;*/
+}
+
+#Logo1{
+    padding: 0px;
+}
+
+ul li{
+    padding:0 40px 0 40px;
+}
+
+#footerlogo{
+    width: 10%;
+}
+.nav-link:hover{
+    color:red;
+}
+
+
+#Authors{
+    color: white;
+    text-align: center;
+    padding:20px 0 30px 0px;
+    margin: 0;
+}
+
+
+/*Extra Help to Validate Andre*/
+
+iframe{
+    width: 100%;
+    border:none;
+}
+
+/*
+
+CSS Alex added
+
+*/
+.wrapper{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 225px;
+}
+.box{
+    background-color: lightblue;
+    color:black;
+    text-align:center;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 7px;
+}
+.youtube-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+}
+
+.youtube-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Michael changes begin 12/08 */
+.wrapper{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 300px;
+    justify-content: space-evenly;
+}
+
+.box{
+        background-color: lightblue;
+        color:black;
+        text-align:center;
+        font-size: 25px;
+        font-family: sans-serif;
+        border-radius: 7px;
+}
+
+.box:hover{
+    background-color: lightskyblue;
+}
+
+.border {
+    border:0.5px groove;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.reviewtitle{
+    background-color: gray;
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.paragraph{
+    font-size: 20px;
+}
+
+.title{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.reviewtitle, .title{
+    font-weight: bold;
+}
+.paragraph, .title, .reviewtitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+}
+    
+/* Michael changes end 12/08 */
+
+/* This is for the describe of the "T1 WINS WORLD CHAMPIONSHIP"*/
+.bg-dark.text-white {
+    word-wrap: break-word;
+    font-size: 20px;
+	font-family: 'Franklin Gothic Medium', Verdana, sans-serif;
+	text-align: justify;
+
+  }
+
+img.gameimage {
+	float: left; 
+	width: 300px;
+	height: 300px;
+	margin: 3% 3% 3% 0%;
+	border: 1px solid;
+	padding: 5px;
+}
+
+
+.main-content {
+	width: 90%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column_gutter { 
+	width: 5%;
+	float:left;
+}
+
+.column_gutter:after {
+	content: '\200b'; 
+}
+
+article.column_one {
+	float: left;
+
+}
+
+article.column_two {
+	float: left;
+	width: 47.5%; 
+}
+
+article.column_three {
+    float: left;
+    width: 100%;
+}
+
+p.game_text {
+	font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+	text-align: justify;
+}
+
+img.image-left {
+	float: left; 
+	width: 200px;
+	height: 200px;
+	margin: 3% 3% 3% 0%;
+	border: 1px solid;
+	padding: 5px;
+}
+
+img.image-right {
+	float: right; 
+	width: 200px;
+	height: 200px;
+	margin: 3% 0% 3% 3%;
+	border: 1px solid;
+	padding: 5px;
+}
+
+h4.game_header {
+	font-size: 250%;
+	margin: 2.5% 2.5% 2.5% 2.5%;
+	text-decoration: underline;
+}
