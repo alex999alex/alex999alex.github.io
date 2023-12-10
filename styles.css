@@ -34,6 +34,11 @@ ul li{
     margin: 0;
 }
 
+#Michael, #Alex, #Carlos{
+    height: 700px;
+    width: 700px;
+}
+
 
 /*Extra Help to Validate Andre*/
 
@@ -76,30 +81,10 @@ CSS Alex added
 }
 
 /* Michael changes begin 12/08 */
-.wrapper{
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-gap: 300px;
-    justify-content: space-evenly;
-}
-
-.box{
-        background-color: lightblue;
-        color:black;
-        text-align:center;
-        font-size: 25px;
-        font-family: sans-serif;
-        border-radius: 7px;
-}
-
-.box:hover{
-    background-color: lightskyblue;
-}
-
 .border {
     border:0.5px groove;
     border-radius: 5px;
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 .reviewtitle{
@@ -122,10 +107,22 @@ CSS Alex added
     font-weight: bold;
 }
 .paragraph, .title, .reviewtitle{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
 }
-    
+
+.reviewtext{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.reviewmain {
+    background-color: black;
+}
+
+.reviewhr{
+    color:white;
+}
 /* Michael changes end 12/08 */
 
 /* This is for the describe of the "T1 WINS WORLD CHAMPIONSHIP"*/
