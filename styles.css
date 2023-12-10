@@ -207,3 +207,7 @@ h4.game_header {
 	margin: 2.5% 2.5% 2.5% 2.5%;
 	text-decoration: underline;
 }
+
+a {
+    text-decoration:none;
+}
